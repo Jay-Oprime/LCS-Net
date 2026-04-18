@@ -1,0 +1,20 @@
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Processing
+Pillow>=9.0.0
+
+# Numerical Computation and Data Processing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Progress Bars and Visualization
+tqdm>=4.62.0
+matplotlib>=3.5.0
+
+# Configuration File Parsing
+PyYAML>=6.0
+
+# Model Complexity Analysis (for Params/FLOPs calculation)
+thop>=0.1.1

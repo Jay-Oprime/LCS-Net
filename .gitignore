@@ -1,0 +1,24 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 模型与实验输出（大文件/可复现生成）
+*.pth
+*.pkl
+ablation_experiments/
+experiments/
+output_*/
+
+# 数据集（你声明了数据不可得，且体积大）
+dataset_root/
+train_images/
+train_masks/
+inputs/
+
+# IDE 与系统文件
+.vscode/
+.idea/
+*.swp
+.DS_Store
