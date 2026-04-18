@@ -91,6 +91,22 @@ dataset_root/
 - These are automatically executed via `transforms` in `train_optimized.py` without requiring preprocessing.
 
 ---
+### 3.1 Demo Dataset (Sample Availability)
+
+Due to UAV remote sensing image copyright restrictions and institutional confidentiality agreements, the **complete dataset (600 images)** used in this study cannot be publicly provided. It is available upon reasonable request subject to: (i) a signed Data Use Agreement (DUA) ensuring non-commercial use, (ii) ethical review approval, and (iii) a formal application letter stating research purposes.
+
+To facilitate immediate testing and format verification, we provide **10 representative image-label pairs** in the `demo/` folder:
+- **Contents**: Covering clear water, shadow interference, vegetation boundaries, and fragmented shoreline scenarios
+- **Format**: RGB image (`.jpg`) + binary mask (`.png`, 0=non-water, 1=water)
+- **Resolution**: 256×256 pixels (consistent with training pipeline)
+- **Usage**: Allows testing of pretrained models without accessing the full private dataset
+
+**Data Format Example**:
+demo/
+├── demo_001.jpg        # Original UAV image
+├── demo_001_mask.png   # Binary mask (water=1, background=0)
+├── demo_002.jpg
+└── demo_002_mask.png
 
 ## 4. Quick Start and Usage Examples
 
