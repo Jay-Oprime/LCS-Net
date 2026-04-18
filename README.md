@@ -115,7 +115,7 @@ demo/
 ```bash
 python train_optimized.py \
   --experiment-name Exp09_LCSNet \
-  --data-root ./dataset_root \
+  --data-root ./demo \
   --save-dir ./experiments \
   --use-cbam \
   --use-bilinear \
